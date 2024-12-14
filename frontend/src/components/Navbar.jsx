@@ -1,13 +1,16 @@
 import React from "react";
 import { assets } from "../assets/frontend_assets/assets";
 import { Link, NavLink } from "react-router-dom";
+import imgOne from "../assets/frontend_assets/jocole.png";
 
 const Navbar = () => {
+  const images = [imgOne];
   return (
     <div className="flex items-center justify-between py-5 font-medium">
       <Link to="/">
         {" "}
-        <img src={assets.logo} className="w-36" alt="" srcset="" />
+        <img src={imgOne} alt="" srcset="" className="w-[120px] h-[140px]" />
+        <img src={assets.jocole} className="w-36" alt="" srcset="" />
       </Link>
       <ul className=" sm:flex gap-5 text-sm text-gray-700 hidden ">
         <NavLink to="/" className="flex flex-col items-center gap-1">

@@ -10,10 +10,7 @@ const NewsletterBox = () => {
         Subscribe now and get 20% off
       </p>
       <p className="text-gray-400 mt-3">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum,
-        voluptas maiores molestias nulla officiis deleniti quae rem minima
-        dolore? Sunt, reiciendis cum nulla beatae facilis fugiat omnis possimus
-        exercitationem atque!
+        Subscribe now and get the fastest listings available.
       </p>
       <form
         onSubmit={onSubmitHandler}
