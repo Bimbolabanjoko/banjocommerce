@@ -1,5 +1,5 @@
 import React from "react";
-import "./slider.css"; // Custom styles for smooth infinite scroll
+// import "./slider.css"; // Custom styles for smooth infinite scroll
 import imgOne from "../assets/frontend_assets/house1.png";
 import imgTwo from "../assets/frontend_assets/house2.png";
 import imgThree from "../assets/frontend_assets/house3.png";
